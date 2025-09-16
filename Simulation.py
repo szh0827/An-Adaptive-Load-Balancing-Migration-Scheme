@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from Core import simulationReal, optimalAllocationNew
-from Setup import client_generation
+from method import simulationReal, optimalAllocationNew
+from generation import client_generation
 
 n_topics = 100
 n_brokers = 10
