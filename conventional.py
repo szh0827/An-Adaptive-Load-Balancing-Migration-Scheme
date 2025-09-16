@@ -1,8 +1,8 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from Core import simulation
-from Plot import plot_info
-from Setup import client_generation, get_initial_topics, broker_capacity, compute_client_overhead
+from method import simulation
+from draw import plot_info
+from generation import client_generation, get_initial_topics, broker_capacity, compute_client_overhead
 
 n_simulations = 200
 n_clients = 10000
