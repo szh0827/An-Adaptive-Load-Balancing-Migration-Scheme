@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-from Core import simulation
-from Setup import client_generation, broker_capacity
+from method import simulation
+from generation import client_generation, broker_capacity
 
 matplotlib.rcParams['axes.unicode_minus'] = False   
 matplotlib.rcParams['font.family'] = 'DejaVu Sans'  
